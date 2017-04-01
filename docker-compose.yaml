@@ -1,0 +1,7 @@
+version: '2'
+services:
+  container:
+    image: cpp-algorithm:latest
+    build: .
+    volumes:
+      - .:/app
