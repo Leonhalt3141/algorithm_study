@@ -4,4 +4,4 @@ services:
     image: cpp-algorithm:latest
     build: .
     volumes:
-      - .:/app
+      - .:/src
