@@ -8,7 +8,7 @@ int strlen(char* str)
 {
     char* p;
     for(p = str; *p; p++);
-    return p - str;
+    return (int) (p - str);
 }
 
 void DispLength(char* str)
